@@ -15,3 +15,7 @@
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
 }
+
+body {
+  background-color: var(--navy);
+}
