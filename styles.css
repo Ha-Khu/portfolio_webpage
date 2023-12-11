@@ -14,6 +14,7 @@
   --slate: #8892b0;
   --light-slate: #a8b2d1;
   --lightest-slate: #ccd6f6;
+  --green: #64ffda;
 }
 
 body {
@@ -34,9 +35,9 @@ nav {
 
 .logo img {
   position: absolute;
-  left: 50px;
-  top: 20px;
-  width: 100px;
+  left: 80px;
+  top: 28px;
+  width: 70px;
 }
 
 ul {
@@ -51,6 +52,13 @@ ul li {
 }
 
 a {
-  color: var(--dark-slate);
+  color: var(--light-slate);
   text-decoration: none;
+  font-size: 15px;
+}
+
+.number {
+  margin-right: 5px;
+  color: var(--green);
+  font-family: 'Err Hostess', sans-serif;
 }
