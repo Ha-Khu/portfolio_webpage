@@ -81,7 +81,6 @@ a {
 }
 
 main {
-  border: 3px solid red;
   height: 87vh;
   display: flex;
   justify-content: center;
@@ -89,7 +88,6 @@ main {
 }
 
 .main-section-1 {
-  border: 3px solid red;
   width: 850px;
   height: 600px;
 }
@@ -97,17 +95,24 @@ main {
 .name-text {
   width: 200px;
   font-size: 22px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
   color: var(--green);
 }
 
 .name {
   font-size: 80px;
-  margin-bottom: 5px;
   color: var(--lightest-slate)
 }
 
 .build-text {
   font-size: 80px;
-  color: var(--dark-slate)
+  color: var(--dark-slate);
+  margin-bottom: 20px;
+}
+
+.description {
+  color: var(--light-slate);
+  width: 500px;
+  font-size: 18px;
+  margin-bottom: 20px;
 }
