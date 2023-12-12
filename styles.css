@@ -92,5 +92,22 @@ main {
   border: 3px solid red;
   width: 850px;
   height: 600px;
+}
 
+.name-text {
+  width: 200px;
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: var(--green);
+}
+
+.name {
+  font-size: 80px;
+  margin-bottom: 5px;
+  color: var(--lightest-slate)
+}
+
+.build-text {
+  font-size: 80px;
+  color: var(--dark-slate)
 }
